@@ -1,0 +1,13 @@
+{
+  "leads": [
+    { "id": "1", "name": "Ricardo Silva", "location": "Ipiranga, São Paulo", "contact": "+55 11 98877-6655", "email": "ricardo.s@email.com", "interest": "Buying", "source": "Zillow", "status": "New", "activity": "2023-10-25", "initials": "RS", "color": "bg-primary/10 text-primary" },
+    { "id": "2", "name": "Ana Oliveira", "location": "Jardim Europa, SP", "contact": "+55 11 97766-5544", "email": "ana.o@email.com", "interest": "Renting", "source": "Website", "status": "Contacted", "activity": "2023-10-24", "initials": "AO", "color": "bg-orange-100 text-orange-600" }
+  ],
+  "properties": [
+    { "id": "1", "name": "Emerald Heights Villa", "location": "Beverly Hills, CA", "price": "$2,450,000", "beds": 4, "baths": 3, "sqft": "3,200", "status": "Available", "type": "Premium", "image": "https://picsum.photos/seed/prop1/600/400" },
+    { "id": "2", "name": "Skyline Penthouse", "location": "Manhattan, NY", "price": "$4,800,000", "beds": 3, "baths": 3, "sqft": "2,150", "status": "Reserved", "type": "Luxury", "image": "https://picsum.photos/seed/prop2/600/400" }
+  ],
+  "users": [
+    { "id": "1", "email": "admin@palazzio.com", "password": "admin", "name": "Ricardo Valente", "role": "Premium Director" }
+  ]
+}

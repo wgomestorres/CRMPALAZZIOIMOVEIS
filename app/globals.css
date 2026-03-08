@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #144bb8;
+  --color-accent: #d4af37;
+  --color-background-light: #f6f6f8;
+  --color-background-dark: #111621;
+}
+
+@layer base {
+  body {
+    @apply bg-background-light text-slate-900;
+  }
+}
+
+.luxury-gradient {
+  background: linear-gradient(135deg, #144bb8 0%, #0a2e7a 100%);
+}
+
+.sidebar-item-active {
+  @apply bg-primary/10 border-r-4 border-primary text-primary;
+}
